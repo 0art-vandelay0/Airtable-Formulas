@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Formula Data Type</title>
+    <!-- Add any CSS or JS here -->
+</head>
+<body>
+    <div>
+        <h1>Select Formula Data Type</h1>
+        <select name="formulaDataType">
+            {% for data_type in formula_data_types %}
+                <option value="{{ data_type }}">{{ data_type }}</option>
+            {% endfor %}
+        </select>
+
+        <!-- Rest of your HTML -->
+    </div>
+</body>
+</html>
